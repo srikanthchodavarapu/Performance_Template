@@ -1,0 +1,90 @@
+@import "../node_modules/@condenast/formation-styleguide/src/styles/style";
+@import "node_modules/@condenast/formation-styleguide/src/styles/themes/theme-5";
+
+html, body {
+  background-color: get-theme(x-dark);
+  color: white;
+}
+
+.Site-Header {
+  text-align: center;
+  padding: 40px;
+}
+
+.dashboard-container {
+  // todo - flex / layout, etc
+  min-height: 100vh;
+  margin: 0px auto 50px;
+  background-color: get-theme(x-light);
+  max-width: 1280px;
+}
+
+.dashboard-header {
+  border: 5px solid get-theme(x-light);
+  margin: 20px;
+  text-align: center;
+}
+
+.siteHeader-detail {
+  display: inline-flex;
+
+  &-box-hidden {
+    display: none;
+  }
+}
+
+.siteHeader-description {
+  max-width: 1280px;
+  margin: 10px auto;
+}
+
+#siteHeader-infoIcon {
+  margin: 2px 0 0 6px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.data-table {
+  padding: 10px;
+}
+
+.data_row {
+  background-color: white;
+  color: black;
+}
+
+.data_row:hover {
+  background-color: LightGray;
+}
+
+.selected {
+  text-decoration: underline;
+}
+
+.pointer-cursor {
+  cursor: pointer;
+}
+
+
+th {
+  background-color: get-theme(theme-blue);
+  text-align: center;
+}
+
+td{
+  text-align: center
+}
+
+table {
+  margin-bottom: 50px;
+}
+
+h2 {
+  color: white;
+}
+
+.center {
+  margin: 125px auto;
+}
